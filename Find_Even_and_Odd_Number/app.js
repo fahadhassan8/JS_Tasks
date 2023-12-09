@@ -17,14 +17,16 @@ document.write("Even Number: ",even, "<br/>");
 document.write("Odd Number: ",odd, "<br/>");
 
 // SECOND METHOD
-
+console.log("Even Number:");
 for (i = 0; i <= 20; i++){
     if(i % 2 === 0){
-        console.log("Even Number: ",i);
+        console.log(i);
     }
 }
+
+console.log("Odd Number:");
 for (i = 0; i <= 20; i++){
     if(i % 2 !== 0){
-        console.log("Odd Number: ",i);
+        console.log(i);
     }
 }
